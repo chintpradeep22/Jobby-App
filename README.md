@@ -76,8 +76,9 @@ npm install
 npm start
 ```
 ## 📱 Screenshots
-###Login Page
-![Login Page]([client/src/assets/home.png](https://res.cloudinary.com/de3tdd3db/image/upload/v1757253874/Screenshot_2025-09-07_193303_gff5rs.png))
+
+### Login Page
+![Login Page](https://res.cloudinary.com/de3tdd3db/image/upload/v1757253874/Screenshot_2025-09-07_193303_gff5rs.png)
 
 ### Home Page
 ![Home Page](client/src/assets/home.png)
