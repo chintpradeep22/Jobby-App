@@ -81,11 +81,11 @@ npm start
 ![Login Page](https://res.cloudinary.com/de3tdd3db/image/upload/v1757253874/Screenshot_2025-09-07_193303_gff5rs.png)
 
 ### Home Page
-![Home Page]([client/src/assets/home.png](https://res.cloudinary.com/de3tdd3db/image/upload/v1757253874/Screenshot_2025-09-07_193254_hxu07c.png))
+![Home Page](https://res.cloudinary.com/de3tdd3db/image/upload/v1757253874/Screenshot_2025-09-07_193254_hxu07c.png)
 
 ### Jobs Listing Page
-![Jobs List]([client/src/assets/jobs-list.png](https://res.cloudinary.com/de3tdd3db/image/upload/v1757253873/Screenshot_2025-09-07_193227_sh8tjl.png))
+![Jobs List](https://res.cloudinary.com/de3tdd3db/image/upload/v1757253873/Screenshot_2025-09-07_193227_sh8tjl.png)
 
 ### Job Detail Page
-![Job Detail]([client/src/assets/job-details.png](https://res.cloudinary.com/de3tdd3db/image/upload/v1757253874/Screenshot_2025-09-07_193242_fyrz39.png))
+![Job Detail](https://res.cloudinary.com/de3tdd3db/image/upload/v1757253874/Screenshot_2025-09-07_193242_fyrz39.png)
 
