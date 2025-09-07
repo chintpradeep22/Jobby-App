@@ -1,0 +1,99 @@
+/* ------------------------------
+   Home Page Container
+------------------------------- */
+.job-home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #000000;
+    color: #ffffff;
+    min-height: 100vh;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    text-align: center;
+    /* default for mobile */
+}
+
+.job-home-content {
+    max-width: 600px;
+}
+
+/* ------------------------------
+   Headings & Description
+------------------------------- */
+.job-home-heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.job-home-description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+/* ------------------------------
+   Button
+------------------------------- */
+.find-jobs-button {
+    background-color: #6366f1;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.find-jobs-button:hover {
+    background-color: #4f46e5;
+}
+
+/* ------------------------------
+   Tablet & Larger Screens
+------------------------------- */
+@media screen and (min-width: 768px) {
+    .job-home-container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 60px 80px;
+        text-align: left;
+        background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    }
+
+    .job-home-heading {
+        font-size: 36px;
+    }
+
+    .job-home-description {
+        font-size: 18px;
+    }
+
+    .find-jobs-button {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+}
+
+/* ------------------------------
+   Large Screens (Desktops)
+------------------------------- */
+@media screen and (min-width: 1200px) {
+    .job-home-heading {
+        font-size: 48px;
+    }
+
+    .job-home-description {
+        font-size: 20px;
+    }
+
+    .find-jobs-button {
+        font-size: 18px;
+        padding: 14px 28px;
+    }
+}

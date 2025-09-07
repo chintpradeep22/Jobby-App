@@ -1,0 +1,160 @@
+.job-list-items {
+    background-color: #202020;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px auto;
+    width: 100%;
+    max-width: 800px;
+    /* stays compact on large screens */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.company-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    /* prevents overflow on smaller screens */
+}
+
+.logo-url {
+    width: 60px;
+    height: auto;
+    margin-right: 12px;
+}
+
+.company-title {
+    font-size: 22px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: #fff;
+    word-break: break-word;
+    /* avoid overflow on long titles */
+}
+
+.star-icon-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.rating-count {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin-left: 6px;
+}
+
+.location-container-flex-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    /* allows wrapping on smaller screens */
+}
+
+.location-desc {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Roboto';
+    margin-left: 6px;
+}
+
+.star-icon {
+    font-size: 20px;
+    color: #fbbf24;
+}
+
+.location-icon {
+    color: #fff;
+    font-size: 22px;
+}
+
+.left-icon {
+    margin-left: 20px;
+}
+
+.line {
+    border: 1px solid #7e858e;
+    width: 100%;
+}
+
+.desc-heading {
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.job-description {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 768px) {
+    .job-list-items {
+        padding: 15px;
+        max-width: 95%;
+    }
+
+    .company-title {
+        font-size: 20px;
+    }
+
+    .rating-count,
+    .description,
+    .job-description {
+        font-size: 14px;
+    }
+
+    .desc-heading {
+        font-size: 18px;
+    }
+
+    .logo-url {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .company-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .location-container-flex-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .left-icon {
+        margin-left: 0;
+        /* prevent overflow */
+    }
+
+    .company-title {
+        font-size: 18px;
+    }
+
+    .desc-heading {
+        font-size: 16px;
+    }
+
+    .job-description {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,104 @@
+/* Sidebar Container */
+.job-filter-group {
+    background-color: #202020;
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
+    /* fixed base width */
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+/* Section Headings */
+.salary-heading {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Roboto';
+    margin-bottom: 12px;
+}
+
+/* Checkbox / Radio Container */
+.salary-range-container {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.checkbox-list-items {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.check-radio {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.check-label {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto';
+    cursor: pointer;
+}
+
+/* Divider */
+.horizontal-line {
+    border: none;
+    border-top: 1px solid #444;
+    margin: 15px 0;
+}
+
+/* ✅ Responsive Styling */
+@media screen and (max-width: 1024px) {
+    .job-filter-group {
+        width: 100%;
+        /* slightly smaller on tablets */
+        padding: 15px;
+    }
+
+    .salary-heading {
+        font-size: 18px;
+    }
+
+    .check-label {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Sidebar moves above content */
+    .job-filter-group {
+        width: 100%;
+        flex-direction: column;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .salary-heading {
+        font-size: 16px;
+    }
+
+    .check-label {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .job-filter-group {
+        padding: 12px;
+    }
+
+    .salary-heading {
+        font-size: 15px;
+    }
+
+    .check-label {
+        font-size: 13px;
+    }
+}
