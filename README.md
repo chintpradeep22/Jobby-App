@@ -6,7 +6,7 @@ Jobby App is a React-based web application that allows users to explore, filter,
 
 ## 🌐 Live Demo
 
-🔗 **Website**: [Jobby App Demo](#)
+🔗 **Website**: [Jobby App Demo](https://pradeep22jobapp.ccbp.tech/)
 ---
 
 ## ⚙️ Features
