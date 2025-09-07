@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# 💼 Jobby App - Job Listing & Search Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Jobby App is a React-based web application that allows users to explore, filter, and apply for jobs. It includes a fully integrated backend for authentication, profile management, and job data fetching. The app also supports responsive design for seamless use across devices.  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌐 Live Demo
 
-### `npm start`
+🔗 **Website**: [Jobby App Demo](#)
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ⚙️ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 👥 User Features
+- 🔐 JWT Authentication
+- 📝 Login / Signup / Logout
+- 🔍 Search Jobs by Keyword
+- 🛠️ Filter Jobs by Employment Type and Salary Range
+- 📄 View Job Details with Description, Location, and Package
+- 📱 Fully Responsive Layout
+- 💡 User-friendly Interface with Icons & Ratings
 
-### `npm test`
+### 🔧 Admin Features (Optional / Future)
+*(Currently all functionality is user-focused; admin features can be added in the same interface.)*  
+- ➕ Add or Edit Jobs
+- 👤 Manage Users and Job Postings
+- 📦 View Applications and Reports
+- 🔔 Notifications for New Jobs / Updates
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🔐 Authentication & Security
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🔑 Password-based authentication using JWT
+- 🔒 Role-based access control for protected routes
+- 🧪 Secure API calls for fetching jobs and user profiles
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧰 Tech Stack
 
-### `npm run eject`
+| Technology       | Purpose                        |
+|------------------|--------------------------------|
+| **React.js**     | Frontend UI Framework          |
+| **Node.js**      | Backend Runtime Environment    |
+| **Express.js**   | Backend API Framework          |
+| **MongoDB**      | Database for Users & Jobs      |
+| **JWT**          | Authentication & Authorization |
+| **React Router** | Navigation & Routing           |
+| **React Icons**  | UI Icons & Styling             |
+| **React Loader Spinner** | Loading Indicators       |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🔧 Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Node.js
+- MongoDB Atlas or Local MongoDB
+- Git
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 📦 Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone the repository**
+```bash
+git clone https://github.com/yourusername/JobbyApp
+cd JobbyApp
+2.Setup the Server
+cd server
+npm install
+nodemon server.js
