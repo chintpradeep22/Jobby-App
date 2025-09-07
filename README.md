@@ -68,7 +68,10 @@ Jobby App is a React-based web application that allows users to explore, filter,
 ```bash
 git clone https://github.com/yourusername/JobbyApp
 cd JobbyApp
-2.Setup the Server
-cd server
+```
+2. **Setup the Client**
+```bash
+cd Jobby-App
 npm install
-nodemon server.js
+npm start
+```
