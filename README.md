@@ -20,15 +20,6 @@ Jobby App is a React-based web application that allows users to explore, filter,
 - 📱 Fully Responsive Layout
 - 💡 User-friendly Interface with Icons & Ratings
 
-### 🔧 Admin Features (Optional / Future)
-*(Currently all functionality is user-focused; admin features can be added in the same interface.)*  
-- ➕ Add or Edit Jobs
-- 👤 Manage Users and Job Postings
-- 📦 View Applications and Reports
-- 🔔 Notifications for New Jobs / Updates
-
----
-
 ## 🔐 Authentication & Security
 
 - 🔑 Password-based authentication using JWT
@@ -48,17 +39,10 @@ Jobby App is a React-based web application that allows users to explore, filter,
 | **JWT**          | Authentication & Authorization |
 | **React Router** | Navigation & Routing           |
 | **React Icons**  | UI Icons & Styling             |
-| **React Loader Spinner** | Loading Indicators       |
 
 ---
 
 ## 🚀 Getting Started
-
-### 🔧 Prerequisites
-
-- Node.js
-- MongoDB Atlas or Local MongoDB
-- Git
 
 ---
 
@@ -66,10 +50,10 @@ Jobby App is a React-based web application that allows users to explore, filter,
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/JobbyApp
-cd JobbyApp
+git clone https://github.com/chintpradeep22/Jobby-App.git
+cd Jobby-App
 ```
-2. **Setup the Client**
+2. **Run Application**
 ```bash
 cd Jobby-App
 npm install
