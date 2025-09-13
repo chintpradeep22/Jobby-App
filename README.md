@@ -15,7 +15,7 @@ To explore the app, use the following demo credentials:
 
 - **Username / Email**: `rahul`  
 - **Password**: `rahul@2021`
-  
+---
 ## ⚙️ Features
 
 ### 👥 User Features
