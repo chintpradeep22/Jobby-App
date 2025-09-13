@@ -9,6 +9,13 @@ Jobby App is a React-based web application that allows users to explore, filter,
 🔗 **Website**: [Jobby App](https://pradeep22jobapp.ccbp.tech/)
 ---
 
+## 🔑 Demo Login Credentials  
+
+To explore the app, use the following demo credentials:  
+
+- **Username / Email**: `rahul`  
+- **Password**: `rahul@2021`
+- 
 ## ⚙️ Features
 
 ### 👥 User Features
